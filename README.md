@@ -30,20 +30,24 @@ The arguments of main functions are:
 
 The main classes are:
 
->Color
-BgColor
+#### Color
+**Color:**       `A Class width many Str Variables,  width ANSI codes of colors`
 
-- **Color:**       `A Class width many Str Variables,  width ANSI codes of colors`
-- **BgColor:**     `A Class width many Str Variables, width ANSI codes of background colors`
+#### BgColor
+**BgColor:**     `A Class width many Str Variables, width ANSI codes of background colors`
+
+----------
 
 The arguments of main function are:
 
 #### coloring():
 >__key: dict, __string: str
 
-- **__key:**      `A Dict Variable, in which the key is the word that needs to be colored, and the value is the color that needs to be colored`
+- **__key:**      `A Dict Variable, in which the key is the word that needs to be colored, and the value is the color. Key of dict, have built-in words like this: __start__, __end__, __mid__, __all__. You can see their in examples`
 - **__string**    `A Str Variable, which is the text to be colored`
+
 ----------
+
 ## Some examples
 
 **Input**
@@ -51,11 +55,22 @@ The arguments of main function are:
     import BetterInput
 
     BetterInput.input('What's your name? ', 'My name is Funsy')
+
+----------
     
 **Color**
-    
+  
     from BetterInput import colors
     
-    print(coloring({'from': Color.BLUE}, 'Hello from BetterInput!'))
+    print(colors.coloring({'from': colors.Color.BLUE}, 'Hello from BetterInput!'))
+    
+    print(colors.coloring({'__start__': colors.BgColor.RED}, 'Hello from BetterInput1'))
 
 
+----------
+
+**Input & Color**
+     
+    import BetterInput
+    
+    BetterInput.input('What’s your name? ', 'Funsy', True, BetterInput.colors.Color.BLUE)
