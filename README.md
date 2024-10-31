@@ -1,4 +1,4 @@
-# **Better Input Library (BetterInput)**
+# **Input Box Library (InputBox)**
 
 The library is distributed under the MIT license and can be downloaded and used by anyone.
 
@@ -6,7 +6,7 @@ The library is distributed under the MIT license and can be downloaded and used 
 
 
 ## How to install
-To install, you can download library from the repository from [GitHub](https://github.com/FunsyCode/BetterInput.git)
+To install, you can download library from the repository from [GitHub](https://github.com/FunsyCode/InputBox.git)
 
 ----------
 
@@ -52,25 +52,25 @@ The arguments of main function are:
 
 **Input**
     
-    import BetterInput
+    import inputbox
 
-    BetterInput.input('What's your name? ', 'My name is Funsy')
+    inputbox.input('What's your name? ', 'My name is Funsy')
 
 ----------
     
 **Color**
   
-    from BetterInput import colors
+    from inputbox import colors
     
-    print(colors.coloring({'from': colors.Color.BLUE}, 'Hello from BetterInput!'))
+    print(colors.coloring({'from': colors.Color.BLUE}, 'Hello from InputBox!'))
     
-    print(colors.coloring({'__start__': colors.BgColor.RED}, 'Hello from BetterInput1'))
+    print(colors.coloring({'__start__': colors.BgColor.RED}, 'Hello from InputBox'))
 
 
 ----------
 
 **Input & Color**
      
-    import BetterInput
+    import inputbox
     
-    BetterInput.input('What’s your name? ', 'Funsy', True, BetterInput.colors.Color.BLUE)
+    inputbox.input('What’s your name? ', 'Funsy', True, BetterInput.colors.Color.BLUE)
