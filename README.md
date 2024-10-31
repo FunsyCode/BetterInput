@@ -6,7 +6,9 @@ The library is distributed under the MIT license and can be downloaded and used 
 
 
 ## How to install
-To install, you can download library from the repository from [GitHub](https://github.com/FunsyCode/EasyInput.git)
+To install, you can download use pip: `pip install -i https://test.pypi.org/simple/ EasyInput==0.1.5`
+
+Or download library from the repository from [GitHub](https://github.com/FunsyCode/EasyInput.git)
 
 ----------
 
