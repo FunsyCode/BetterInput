@@ -1,4 +1,4 @@
-# **Input Box Library (InputBox)**
+# **Easy Input Library (EasyInput)**
 
 The library is distributed under the MIT license and can be downloaded and used by anyone.
 
@@ -6,7 +6,7 @@ The library is distributed under the MIT license and can be downloaded and used 
 
 
 ## How to install
-To install, you can download library from the repository from [GitHub](https://github.com/FunsyCode/InputBox.git)
+To install, you can download library from the repository from [GitHub](https://github.com/FunsyCode/EasyInput.git)
 
 ----------
 
@@ -52,25 +52,25 @@ The arguments of main function are:
 
 **Input**
     
-    import inputbox
+    import EasyInput
 
-    inputbox.input('What's your name? ', 'My name is Funsy')
+    EasyInput.input('What's your name? ', 'My name is Funsy')
 
 ----------
     
 **Color**
   
-    from inputbox import colors
+    from EasyInput import colors
     
-    print(colors.coloring({'from': colors.Color.BLUE}, 'Hello from InputBox!'))
+    print(colors.coloring({'from': colors.Color.BLUE}, 'Hello from EasyInput!'))
     
-    print(colors.coloring({'__start__': colors.BgColor.RED}, 'Hello from InputBox'))
+    print(colors.coloring({'__start__': colors.BgColor.RED}, 'Hello from EasyInput'))
 
 
 ----------
 
 **Input & Color**
      
-    import inputbox
+    import EasyInput
     
-    inputbox.input('What’s your name? ', 'Funsy', True, BetterInput.colors.Color.BLUE)
+    EasyInput.input('What’s your name? ', 'Funsy', True, EasyInput.colors.Color.BLUE)
