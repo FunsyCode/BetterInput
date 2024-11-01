@@ -1,4 +1,4 @@
-# **Easy Input Library (EasyInput)**
+# **Flow Input Library (FlowInput)**
 
 The library is distributed under the MIT license and can be downloaded and used by anyone.
 
@@ -6,9 +6,9 @@ The library is distributed under the MIT license and can be downloaded and used 
 
 
 ## How to install
-To install, you can download use pip: `pip install -i https://test.pypi.org/simple/ EasyInput==0.1.5`
+To install, you can download use pip: `pip install FlowInput`
 
-Or download library from the repository from [GitHub](https://github.com/FunsyCode/EasyInput.git)
+Or download library from the repository from [GitHub](https://github.com/FunsyCode/FlowInput.git)
 
 ----------
 
@@ -54,25 +54,25 @@ The arguments of main function are:
 
 **Input**
     
-    import EasyInput
+    import FlowInput
 
-    EasyInput.input('What's your name? ', 'My name is Funsy')
+    FlowInput.input('What's your name? ', 'My name is Funsy')
 
 ----------
     
 **Color**
   
-    from EasyInput import colors
+    from FlowInput import colors
     
-    print(colors.coloring({'from': colors.Color.BLUE}, 'Hello from EasyInput!'))
+    print(colors.coloring({'from': colors.Color.BLUE}, 'Hello from FlowInput!'))
     
-    print(colors.coloring({'__start__': colors.BgColor.RED}, 'Hello from EasyInput'))
+    print(colors.coloring({'__start__': colors.BgColor.RED}, 'Hello from FlowInput'))
 
 
 ----------
 
 **Input & Color**
      
-    import EasyInput
+    import FlowInput
     
-    EasyInput.input('What’s your name? ', 'Funsy', True, EasyInput.colors.Color.BLUE)
+    FlowInput.input('What’s your name? ', 'Funsy', True, FlowInput.colors.Color.BLUE)
